@@ -1,9 +1,24 @@
 # Learn Git and Github
 
 ## Introduction
-* What is version control
-* What is Git
-* What is Github
+
+### What is version control
+
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+
+### What is Git
+
+Git has three main states that your files can reside in: modified, staged, and committed.
+
+* Modified means that you have changed the file but have not committed it to your database yet.
+
+* Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
+
+* Committed means that the data is safely stored in your local database.
+
+### What is Github
+
+GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 ## Set up Git
 ### 1. Installing Git
@@ -39,10 +54,31 @@ git push -u origin master
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-# Working with Git
-* git add
-* git restore --stage filename
-* git commit
+## Working with Git
+### Tracking files
 
-## Viewing the commit history
-* git log
+```
+git add filename
+```
+
+### Unstaged files
+
+```
+git restore --stage filename
+```
+
+### Commits changes
+
+```
+git commit -m "message"
+```
+
+```
+git commit -am "message
+```
+
+### Viewing the commit history
+
+```
+git log
+```
