@@ -79,7 +79,14 @@ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
 ## Working with Git
-### Tracking files
+
+### Viewing Your Staged and Unstaged Changes
+
+```
+git status
+```
+
+### Tracking/Staging files
 
 ```
 git add filename
@@ -98,11 +105,37 @@ git commit -m "message"
 ```
 
 ```
-git commit -am "message
+git commit -am "message"
 ```
 
 ### Viewing the commit history
 
 ```
 git log
+```
+
+### Reset or Go back to the previous commit
+
+```
+git reset --hard commithash
+```
+
+Reset branch to master:
+
+```
+git reset --hard origin/master
+```
+
+## Working with Remotes
+
+### Pushing to Your Remotes
+
+```
+git push
+```
+
+### Pulling from Your Remotes
+
+```
+git pull
 ```
