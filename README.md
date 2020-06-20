@@ -159,3 +159,9 @@ git branch branchname
 ```
 git checkout branchname
 ```
+
+### Merging Branches
+
+```
+git merge branchname
+```
