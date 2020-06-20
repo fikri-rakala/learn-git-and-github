@@ -12,4 +12,8 @@
 
 ## Working with Git
 * git add
+* git restore --stage filename
 * git commit
+
+## Viewing the commit history
+* git log
