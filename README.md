@@ -88,3 +88,17 @@ git commit -a
 ```
 git log
 ```
+
+## Undoing Things
+
+### Unstaging a Staged File
+
+```
+git restore --staged file
+```
+
+### Unmodifying a Modified File
+
+```
+git restore file
+```
