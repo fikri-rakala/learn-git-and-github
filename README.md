@@ -2,9 +2,9 @@
 
 ## Getting Started
 
-### What is Git?
+### Introducing Git
 
-Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+Git is a version control system that records changes to a file or set of files over time so that you can recall specific versions later.
 
 Git has three main states that your files can reside in: modified, staged, and committed.
 
@@ -29,23 +29,15 @@ https://help.github.com/en/github/getting-started-with-github/set-up-git
 git config --list
 ```
 
-## Creating a Git Repository
+## Working with a Local Repository
 
-### Initializing a Repository in an Existing Directory
+### Creating/Initializing a Repository
 
 You can take a local directory that is currently not under version control, and turn it into a Git repository.
 
 ```
 git init
 ```
-
-### Cloning an Existing Repository
-
-```
-git clone url
-```
-
-## Git Basics
 
 ### Checking the Status of Your Files
 
@@ -88,8 +80,6 @@ git commit -a
 ```
 git log
 ```
-
-## Undoing Things
 
 ### Unstaging a Staged File
 
