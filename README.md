@@ -166,8 +166,14 @@ git checkout branchname
 git merge branchname
 ```
 
-### Delete Branch
+### Delete Branch Locally
 
 ```
 git branch --delete branchname
+```
+
+### Delete Branch Remotely
+
+```
+git push origin --delete branchname
 ```
