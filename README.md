@@ -165,3 +165,9 @@ git checkout branchname
 ```
 git merge branchname
 ```
+
+### Delete Branch
+
+```
+git branch --delete branchname
+```
