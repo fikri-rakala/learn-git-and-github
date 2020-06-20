@@ -27,9 +27,33 @@ GitHub is a code hosting platform for version control and collaboration. It lets
 
 ### 2. Setting your username in Git
 
+Setting your Git username for every repository on your computer:
+
+```
+git config --global user.name "name"
+```
+
+Setting your Git username for a single repository:
+
+```
+git config user.name "Mona Lisa"
+```
+
 https://help.github.com/en/github/using-git/setting-your-username-in-git
 
 ### 3. Setting your commit email address
+
+Setting your email address for every repository on your computer:
+
+```
+git config --global user.email "email@example.com"
+```
+
+Setting your email address for a single repository:
+
+```
+git config user.email "email@example.com"
+```
 
 https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address
 
