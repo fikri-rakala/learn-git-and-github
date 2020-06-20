@@ -139,3 +139,23 @@ git push
 ```
 git pull
 ```
+
+## Branching
+
+### Shows current branch
+
+```
+git branch
+```
+
+### Creating a new branch
+
+```
+git branch branchname
+```
+
+### Switching Branches
+
+```
+git checkout branchname
+```
