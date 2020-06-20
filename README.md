@@ -29,11 +29,66 @@ https://help.github.com/en/github/getting-started-with-github/set-up-git
 git config --list
 ```
 
+## Creating a Git Repository
+
+### Initializing a Repository in an Existing Directory
+
+You can take a local directory that is currently not under version control, and turn it into a Git repository.
+
+```
+git init
+```
+
+### Cloning an Existing Repository
+
+```
+git clone url
+```
+
 ## Git Basics
 
-### 1. Create a repo in Github
+### Checking the Status of Your Files
 
-https://help.github.com/en/github/getting-started-with-github/create-a-repo
+```
+git status
+```
+
+### Tracking New Files
+
+```
+git add files
+```
+
+### Staging Modified Files
+
+```
+git add files
+```
+
+### Committing Your Changes
+
+```
+git commit
+```
+
+```
+git commit -m "message"
+```
+
+### Skipping the Staging Area
+
+Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part.
+
+```
+git commit -a
+```
+
+### Viewing the Commit History
+
+```
+git log
+```
+
 
 ### 2. Create a new repository on the command line
 
@@ -45,11 +100,6 @@ git remote add origin https://github.com/fikri-rakala/test.git
 git push -u origin master
 ```
 
-### 3. Cloning a repository
-
-```
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
 
 ## Working with Git
 
