@@ -93,6 +93,13 @@ git restore --staged <file>
 git restore <file>
 ```
 
+### Adding Remote Repository
+
+```
+git remote add origin https://github.com/fikri-rakala/testing.git
+git push -u origin master
+```
+
 ## Working with Remote Repository
 
 ### Cloning a Remote Repository
