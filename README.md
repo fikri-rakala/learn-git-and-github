@@ -157,3 +157,35 @@ git branch -d <branchname>
 ### Merge Conflicts
 
 Fix conflicts and then commit the result.
+
+## Remote Branches
+
+### Pushing
+
+```
+git push -u origin <branchname>
+```
+
+### Pulling
+
+```
+git pull
+```
+
+### Adding Remote Branches into Local Repository
+
+```
+git branch <branchname> origin/<branchname>
+```
+
+or 
+
+```
+git checkout -b <branchname> origin/<branchname>
+```
+
+### Deleting Remote Branches
+
+```
+git push origin --delete <branchname>
+```
