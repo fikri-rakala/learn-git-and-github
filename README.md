@@ -48,13 +48,13 @@ git status
 ### Tracking New Files
 
 ```
-git add files
+git add <file>
 ```
 
 ### Staging Modified Files
 
 ```
-git add files
+git add <file>
 ```
 
 ### Committing Your Changes
@@ -84,11 +84,39 @@ git log
 ### Unstaging a Staged File
 
 ```
-git restore --staged file
+git restore --staged <file>
 ```
 
 ### Unmodifying a Modified File
 
 ```
-git restore file
+git restore <file>
+```
+
+## Working with Remote Repository
+
+### Cloning a Remote Repository
+
+```
+git clone <url>
+```
+
+### Adding a Remote Repository to Local Repository
+
+```
+git remote add <name> <url>
+```
+
+### Pulling from Your Remotes
+
+```
+git pull
+```
+
+Running git pull generally fetches data from the server you originally cloned from and automatically tries to merge it into the code you’re currently working on.
+
+### Pushing to Your Remotes
+
+```
+git push
 ```
