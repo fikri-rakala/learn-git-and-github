@@ -121,3 +121,39 @@ Running git pull generally fetches data from the server you originally cloned fr
 ```
 git push
 ```
+
+## Branches
+
+### Displaying Branches in a Repository and Currently On
+
+```
+git branch
+```
+
+### Creating a New Branch
+
+```
+git branch <branchname>
+```
+
+### Switching Branches
+
+```
+git checkout <branchname>
+```
+
+### Merging Branches
+
+```
+git merge <branchname>
+```
+
+### Delete Branches
+
+```
+git branch -d <branchname>
+```
+
+### Merge Conflicts
+
+Fix conflicts and then commit the result.
