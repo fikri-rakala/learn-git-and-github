@@ -101,12 +101,6 @@ git restore <file>
 git clone <url>
 ```
 
-### Adding a Remote Repository to Local Repository
-
-```
-git remote add <name> <url>
-```
-
 ### Pulling from Your Remotes
 
 ```
